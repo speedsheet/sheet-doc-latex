@@ -1,0 +1,158 @@
+# <#>LaTeX<> SpeedSheet
+<b>What you need, faster.<>
+
+
+# Summary
+
+
+### Pronounciation
+
+<card>LAY-tek<>
+
+
+
+# Tools
+
+
+### LaTeX To Image
+
+<l>https://www.codecogs.com/latex/eqneditor.php<>
+
+
+### LaTeX To Html
+
+<l>https://www.mathjax.org/<>
+
+
+
+# Syntax
+
+
+### Group  { }
+
+<cb>{<v>...<>}<>
+
+
+Groups items together.
+<c>{<> and <c>}<> are not displayed
+
+
+### Subscript  _
+
+<cb>_<v>x<><>
+
+
+Exmple:
+
+<cb>x_1<>
+
+Displays:
+
+<cb>x<sub>1<><>
+
+
+<cb>x_{1,2}<>
+
+Displays:
+
+<cb>x<sub>1,2<><>
+@
+@ Underscore
+
+
+
+### Superscript  ^
+
+
+<cb>^<v>x<><>
+
+
+Exmple:
+
+<cb>x^1<>
+
+Displays:
+
+<cb>x<super>1<><>
+
+
+<cb>x^{1,2}<>
+
+Displays:
+
+<cb>x<super>1,2<><>
+@
+@ Underscore
+
+
+
+# Key Words
+
+
+### \\bar
+
+<cb>\\bar <v>x<><>
+
+Displays a bar over the section.
+
+
+### \\over
+
+Divide By
+
+<cb><v>x<> \\over <v>y<><>
+
+Displays a big dividing line.
+
+
+### \\pm
+
+Plus Minus
+
+<cb>\\pm<>
+
+
+Displays ±
+
+
+### \\sqrt
+
+Square Root
+
+<cb>\\sqrt <v>x<><>
+
+
+Places a square root symbol around a value.
+
+
+
+### \\sum
+
+<cb>\\sqrt <v>x<><>
+
+
+Displays a sum (sigma) around a value.
+
+
+
+# Precedence
+
+
+{ }
+
+
+
+# Terms
+
+
+### LaTeX
+LaTeX is a typesetting system use to create formatted mathematical and science documents.
+
+It is based on TeX.
+
+
+
+### Tex
+This a typesetting system that renders documents consistently across devices.
+
+
