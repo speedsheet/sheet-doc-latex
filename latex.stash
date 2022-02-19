@@ -35,6 +35,45 @@
 
 Groups items together.
 <c>{<> and <c>}<> are not displayed
+@
+@ {}
+
+
+
+### Overline
+
+<cb>\\overline {<v>x<>}<>
+
+
+Places an overlino over the group.
+@
+@ \\overline, overline
+@ overbar, over-line, over-bar, line, bar
+
+
+
+### Over Arrow Left
+
+<cb>\\overleftarrow {<v>x<>}<>
+
+
+Places an overlino over the group.
+@
+@ \\overleftarrow, overleftarrow
+@ overarrow, over-arrow, over-bar, line, bar
+
+
+
+### Over Arrow Right
+
+<cb>\\overrightarrow {<v>x<>}<>
+
+
+Places an overlino over the group.
+@
+@ \\overrightarrow, overrightarrow
+@ ovearrow, over-arrow, over-bar, line, bar
+
 
 
 ### Subscript  _
@@ -82,7 +121,75 @@ Displays:
 
 <cb>x<super>1,2<><>
 @
-@ Underscore
+@ to power of
+
+
+
+# Symbol
+
+
+
+### Arrow Left
+
+<cb>\\leftarrow<>
+@
+@ \\leftarrow, leftarrow
+
+
+
+### Arrow Right
+
+<cb>\\rightarrow<>
+@
+@ \\rightarrow, rightarrow
+
+
+
+### Divide By / Over
+
+<cb><v>x<> \\over <v>y<><>
+
+Displays a big dividing line.
+@
+@ ÷, divide
+
+
+### Plus Minus
+
+<cb>\\pm<>
+
+Displays ±
+@
+@ + -, pm, \\pm
+
+
+### Square Root
+
+<cb>\\sqrt <v>x<><>
+
+Places a square root symbol around a value.
+@
+@ √, sqrt, \\sqrt
+
+
+
+### Sum / Sigma
+
+<cb>\\sum <v>x<><>
+
+Displays a sum (sigma) around a value.
+@
+@ sigma, ∑, sum(), summation, sigma
+
+
+
+### Top Bar - Add
+
+<cb>\\bar <v>x<><>
+
+Displays a bar over the section.
+@
+@ bar, \\bar
 
 
 
@@ -96,6 +203,7 @@ Displays:
 Displays a bar over the section.
 
 
+
 ### \\over
 
 Divide By
@@ -103,6 +211,9 @@ Divide By
 <cb><v>x<> \\over <v>y<><>
 
 Displays a big dividing line.
+@
+@ ÷, divide
+
 
 
 ### \\pm
@@ -113,6 +224,9 @@ Plus Minus
 
 
 Displays ±
+@
+@ + -, ±, plus or minus
+
 
 
 ### \\sqrt
@@ -123,15 +237,21 @@ Square Root
 
 
 Places a square root symbol around a value.
+@
+@ square root, sqrt
 
 
 
 ### \\sum
 
-<cb>\\sqrt <v>x<><>
+Sum of Values
+
+<cb>\\sum <v>x<><>
 
 
 Displays a sum (sigma) around a value.
+@
+@ ∑, sum, sigma
 
 
 
